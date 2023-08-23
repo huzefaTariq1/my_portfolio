@@ -32,7 +32,7 @@ const Hireme = () => {
         <span class="absolute flex items-center justify-center w-6 h-6 bg-purple-200 rounded-full -left-3 ring-8 ring-gray-200 dark:ring-gray-900 dark:bg-purple-500">
             <svg aria-hidden="true" class="w-3 h-3 text-purple-500 dark:text-purple-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
         </span>
-        <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">Renexcode<span class="bg-purple-100 text-purple-500 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-purple-300 ml-3">Nov 2021 - jan 2022</span></h3>
+        <h3 class="flex justify-between items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">Renexcode<span class="bg-purple-100 text-purple-500 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-purple-300 ml-3">Nov 2021 - jan 2022</span></h3>
         <time class="block mb-2  font-normal leading-none text-gray-400 dark:text-gray-500">MERN & React Native Developer</time>
        
         <ul class=" text-sm text-gray-500 list-disc list-inside dark:text-gray-400">
@@ -50,7 +50,7 @@ const Hireme = () => {
         <span class="absolute flex items-center justify-center w-6 h-6 bg-purple-200 rounded-full -left-3 ring-8 ring-gray-200 dark:ring-gray-900 dark:bg-purple-500">
             <svg aria-hidden="true" class="w-3 h-3 text-purple-500 dark:text-purple-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
         </span>
-        <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">Esspfa<span class="bg-purple-100 text-purple-500 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-purple-300 ml-3">Nov 2021 - jan 2022</span></h3>
+        <h3 class="flex justify-between items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">Esspfa<span class="bg-purple-100 text-purple-500 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-purple-300 ml-3">Nov 2021 - jan 2022</span></h3>
         <time class="block mb-2  font-normal leading-none text-gray-400 dark:text-gray-500">Trainee Front-end Developer</time>
        
         <ul class="text-sm text-gray-500 list-disc list-inside dark:text-gray-400">

@@ -9,7 +9,7 @@ html {
   @apply font-Poppins scroll-smooth;
 }
 body {
-  @apply box-border  text-gray-100;
+  @apply box-border bg-neutral-50  text-gray-100;
 }
 .btn-primary {
   @apply bg-purple-500 font-semibold text-white md:mx-0 mx-auto rounded-full py-3 px-6 flex items-center gap-2;

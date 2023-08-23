@@ -22,9 +22,9 @@ const Contact = () => {
          gap-6 max-w-5xl bg-gray-200 md:p-6 p-2 rounded-lg mx-auto"
         >
           <form className="flex flex-col flex-1 gap-5">
-            <input className="bg-gray-200 border-2 border-purple-500" type="text" placeholder="Your Name" />
-            <input className="bg-gray-200 border-2 border-purple-500" type="Email" placeholder="Your Email Address" />
-            <textarea className="bg-gray-200 border-2 border-purple-500" placeholder="Your Message" rows={10}></textarea>
+            <input className="bg-neutral-50 border-2 border-purple-500" type="text" placeholder="Your Name" />
+            <input className="bg-neutral-50 border-2 border-purple-500" type="Email" placeholder="Your Email Address" />
+            <textarea className="bg-neutral-50 border-2 border-purple-500" placeholder="Your Message" rows={10}></textarea>
             <button className="btn-primary w-fit">Send Message</button>
           </form>
           <div className="flex flex-col  gap-7 ">
