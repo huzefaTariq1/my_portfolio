@@ -10,7 +10,7 @@ const About = () => {
     <section id="about" className="py-7 text-white">
       <div className="text-center mt-8">
         <h3 className="text-4xl text-black  font-semibold">
-          About <span className="text-purple-500">Me</span>
+          About <span className="text-blue-600">Me</span>
         </h3>
         <p className="text-gray-700 my-3 text-lg">My introduction</p>
         <div className="flex md:flex-row flex-col-reverse items-center md:gap-6 gap-12 px-10 max-w-6xl mx-auto">
@@ -27,7 +27,7 @@ const About = () => {
                   <div key={content.text}>
                     <h3 className="md:text-4xl text-2xl font-semibold text-black">
                       {content.count}
-                      <span className="text-purple-500">+</span>{" "}
+                      <span className="text-blue-600">+</span>{" "}
                     </h3>
                     <span className="md:text-base text-xs">{content.text}</span>
                   </div>
@@ -45,7 +45,7 @@ const About = () => {
               <img
                 src={aboutImg}
                 alt=""
-                className="w-5/6 object-cover bg-purple-500 rounded-xl"
+                className="w-5/6 object-cover bg-blue-600 rounded-xl"
               />
             </div>
           </div>

@@ -52,7 +52,7 @@ const Project = () => {
     <section id="projects" className="py-10 text-black">
       <div className="text-center">
         <h3 className="text-4xl font-semibold">
-          My <span className="text-purple-500">Projects</span>
+          My <span className="text-blue-600">Projects</span>
         </h3>
         <p className="text-gray-400 mt-3 text-lg">My awesome works</p>
       </div>
@@ -80,19 +80,19 @@ const Project = () => {
               <SwiperSlide key={i}>
                 <div className="h-fit w-full p-4 bg-gray-200 rounded-xl">
                   <img src={project_info.img} alt="" className="rounded-lg" />
-                  <h3 className="text-xl my-4 text-purple-500">{project_info.name}</h3>
+                  <h3 className="text-xl my-4 text-blue-600">{project_info.name}</h3>
                   <div className="flex gap-3">
                     <a
                       href={project_info.github_link}
                       target="_blank"
-                      className="text-purple-500 bg-purple-100 px-2 py-1 inline-block"
+                      className="text-blue-600 bg-purple-100 px-2 py-1 inline-block"
                     >
                       Github
                     </a>
                     <a
                       href={project_info.live_link}
                       target="_blank"
-                      className="text-purple-500 bg-purple-100  px-2 py-1 inline-block"
+                      className="text-blue-600 bg-purple-100  px-2 py-1 inline-block"
                     >
                       Live Demo
                     </a>

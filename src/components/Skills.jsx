@@ -101,22 +101,25 @@ const Skills = () => {
     <section id="skills" className="py-10 bg-gray-200 relative">
       <div className="mt-8 text-gray-100 text-center">
         <h3 className="text-4xl text-black font-semibold">
-          Technical <span className="text-purple-500">Expertise</span>
+          Technical <span className="text-blue-600">Expertise</span>
         </h3>
         <div className="flex items-center justify-center mt-10 gap-8 flex-wrap md:mx-20"  >
           {skills?.map((skill, i) => (
             <div
               key={i}
-              className="border flex items-center justify-center border-gray-300 shadow-md shadow-purple-300 dark:bg-gray-800 dark:border-gray-700 relative min-w-[10rem] max-w-[16rem]  p-5 rounded-xl hover:border-2 ease-out"
+             // className="border flex items-center justify-center border-gray-300 shadow-md shadow-blue-600 dark:bg-gray-400 dark:border-gray-400 relative min-w-[10rem] max-w-[16rem]  p-5 rounded-xl hover:border-2 ease-out"
+             className="border flex items-center justify-center border-gray-300 dark:bg-gray-400 dark:border-gray-400 relative min-w-[10rem] max-w-[16rem] p-5 rounded-xl ease-out transition-all duration-300 hover:shadow-md hover:-translate-y-2 hover:bg-gray-500"
+             //  className="border flex items-center justify-center border-gray-300 dark:bg-gray-400 dark:border-gray-400 relative min-w-[10rem] max-w-[16rem] p-5 rounded-xl ease-out transition-shadow duration-300 hover:shadow-md shadow-blue-600 hover:shadow-md hover:-translate-y-1"
+             //className="border flex items-center justify-center border-gray-300 dark:bg-gray-400 dark:border-gray-400 relative min-w-[10rem] max-w-[16rem] p-5 rounded-xl ease-out transition-shadow duration-300 hover:shadow-lg hover:border-blue-600"
             >
               <div
                 style={{
-                  background: `conic-gradient(rgb(168, 85, 247) ${skill.count}%,#ddd ${skill.count}%)`,
+                  background: `conic-gradient(rgb(37, 99, 235) ${skill.count}%,#ddd ${skill.count}%)`,
                   justifyContent:"center"
                 }}
                 className="w-24 h-24 flex items-center justify-center rounded-full"
               >
-                <div className="text-6xl w-20 h-20 bg-gray-900 rounded-full flex items-center justify-center ">
+                <div className="text-6xl w-20 h-20 bg-gray-800 rounded-full flex items-center justify-center ">
                   {skill.logo}
                 </div>
               </div>
@@ -128,13 +131,13 @@ const Skills = () => {
       
       <div className="mt-8 text-gray-100 text-center">
         <h3 className="text-4xl text-black font-semibold">
-          Skills <span className="text-purple-500">/</span> Exposure
+          Skills <span className="text-blue-600">/</span> Exposure
         </h3>
         <div className="flex items-center justify-center mt-10 gap-8 flex-wrap md:mx-20"  >
           {skills1?.map((skill, i) => (
             <div
               key={i}
-              className="border  items-center justify-center py-2 border-gray-300 shadow-md shadow-purple-300 dark:bg-gray-800 dark:border-gray-700 relative min-w-[10rem] max-w-[16rem]  px-5 rounded-xl hover:border-2 ease-out"
+              className="border  items-center justify-center py-2 border-gray-300 shadow-md shadow-blue-600 dark:bg-gray-800 dark:border-gray-700 relative min-w-[10rem] max-w-[16rem]  px-5 rounded-xl hover:border-2 ease-out"
             >
               <div
                 style={{

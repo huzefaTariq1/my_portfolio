@@ -25,17 +25,17 @@ const Navbar = () => {
       <div className="flex items-center justify-between">
         <div className="mx-7 ">
           <h4 className="text-3xl text-black uppercase font-bold">
-            H<span className="text-purple-500">u</span>ze<span className="text-purple-500">f</span>a
+            H<span className="text-blue-600">u</span>ze<span className="text-blue-600">f</span>a
           </h4>
         </div>
         <div
           className={` ${
-            sticky ? "md:bg-white/0 bg-purple-500" : "bg-purple-500"
+            sticky ? "md:bg-white/0 bg-blue-600" : "bg-blue-600"
           }  md:block hidden px-7 py-2 font-medium  rounded-bl-full`}
         >
           <ul className="flex items-center gap-1 py-2 text-lg">
             {menuLinks?.map((menu, i) => (
-              <li key={i} className="px-6 hover:text-blue-600">
+              <li key={i} className="px-6 hover:text-blue-900">
                 <a href={menu?.link}>{menu?.name}</a>
               </li>
             ))}
